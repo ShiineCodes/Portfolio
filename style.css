@@ -33,7 +33,7 @@ h3 {
 }
 
 p {
-  background: var(--secondary-color);
+  background: #f9f7fe;
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
@@ -112,9 +112,8 @@ p {
 }
 .footer {
   padding: 20px 5px;
-  background: var(--secondary-color);
+  background: #f9f7fe;
   text-align: center;
-  margin-top: 290px;
 }
 
 #footer-work {
