@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
@@ -7,7 +8,7 @@
 
 body {
   margin: 60px auto;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
 }
 
 h1,
@@ -46,7 +47,7 @@ p {
   justify-content: center;
 }
 
-.navigation-links :hover{
+.navigation-links :hover {
   color: beige;
 }
 
@@ -105,9 +106,9 @@ p {
   background: #f9f7fe;
   --bs-navbar-padding-y: 1rem;
 }
-.logo{
- display: block;
- max-width: 100px; 
+.logo {
+  display: block;
+  max-width: 100px;
 }
 .footer {
   padding: 20px 5px;
@@ -117,9 +118,8 @@ p {
 }
 
 #footer-work {
-  margin-top: 290px;;
+  margin-top: 290px;
 }
-
 
 footer .social-links a {
   margin: 0 10px;
@@ -145,4 +145,27 @@ footer .social-links a {
   border-radius: 4px;
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
+}
+.about-me h1 {
+  font-size: 50px;
+}
+
+.about-me h3 {
+  font-size: 20px;
+  line-height: 2;
+  font-weight: lighter;
+}
+
+.about-me-section {
+  text-align: center;
+}
+.about-me-section .row .about-me h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.about-me-section .row .about-me p {
+  font-size: 15px;
+}
+.work-p {
+  background-color: white;
 }
