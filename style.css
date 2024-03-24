@@ -6,7 +6,7 @@
 
 body {
   margin: 60px auto;
-  max-width: 800px;
+  font-family: "Playfair Display", serif;
 }
 
 h1,
@@ -42,6 +42,10 @@ p {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+}
+
+.navigation-links :hover{
+  color: beige;
 }
 
 .navigation-links a {
@@ -88,4 +92,18 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.hero {
+  background: #f9f7fe;
+  text-align: center;
+  padding: 150px 20px;
+}
+.navbar {
+  background: #f9f7fe;
+  --bs-navbar-padding-y: 1rem;
+}
+.logo{
+ display: block;
+ max-width: 140px; 
 }
