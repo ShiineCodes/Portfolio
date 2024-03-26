@@ -170,3 +170,8 @@ footer .social-links a {
 .codedby {
  font-size: 14px; 
 }
+.footer1 {
+  padding: 50px 5px;
+  background: #f9f7fe;
+  text-align: center;
+}
