@@ -135,6 +135,7 @@ footer .social-links a {
   line-height: 27px;
   padding: 12px 20px;
   font-family: var(--heading-font-family);
+  text-decoration: none;
 }
 
 .btn-branding-outline {
@@ -178,4 +179,9 @@ footer .social-links a {
 }
 .container {
   margin-bottom: 10px;
+}
+.btn:hover {
+  color: var(--bs-btn-hover-color);
+  background-color: var(--bs-btn-hover-bg);
+  border-color: #242345;
 }
