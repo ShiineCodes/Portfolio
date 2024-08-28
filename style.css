@@ -6,6 +6,7 @@
   --branding-color: #6c63ff;
 }
 
+
 body {
   font-family: 'Playfair Display', serif;
 }
@@ -174,4 +175,7 @@ footer .social-links a {
   padding: 50px 5px;
   background: #f9f7fe;
   text-align: center;
+}
+.container {
+  margin-bottom: 10px;
 }
